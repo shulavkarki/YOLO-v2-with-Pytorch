@@ -105,4 +105,8 @@ Let's break each of em.
   
 ![image](https://user-images.githubusercontent.com/40908371/182013451-351d3013-b9ea-4359-bd36-ce492a10a0d4.png)   
   
-
+### Limitations of Yolo  
+  
+- Comparatively low recall and more localization error compared to Faster R_CNN.  
+- Struggles to detect close objects because each grid can propose only 2 bounding boxes.  
+- Struggles to detect small objects.  
