@@ -94,7 +94,10 @@ Let's break each of em.
   
   
 <img src="https://user-images.githubusercontent.com/40908371/182176740-214aab10-0ada-4bb4-a440-72126873527a.png" alt="1obj" width=500/>
-     
+  
+YOLO predicts multiple bounding boxes per grid cell. At training time we only want one bounding box predictor to be responsible for each object.  
+We assign one predictor to be “responsible” for predicting an object based on which prediction has the highest current IOU with the ground truth.  
+However, i've only taken one bounding box per grid cell.  
      
 2. Confidence Loss  
   
