@@ -92,7 +92,7 @@ Let's break each of em.
   
 ![image](https://user-images.githubusercontent.com/40908371/182013421-fdbb1f8e-fa17-4440-9368-e2027f92f6a3.png)  
   
-<img src="https://user-images.githubusercontent.com/40908371/182175102-7bc3d49a-8d7e-44fa-a990-ac20c9f43626.png" alt="1obj" width=400/>
+<img src="https://user-images.githubusercontent.com/40908371/182175102-7bc3d49a-8d7e-44fa-a990-ac20c9f43626.png" alt="1obj" width=500/>
      
      
 2. Confidence Loss  
