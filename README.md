@@ -99,7 +99,8 @@ YOLO predicts multiple bounding boxes per grid cell. At training time we only wa
 We assign one predictor to be “responsible” for predicting an object based on which prediction has the highest current IOU with the ground truth.  
 However, i've only taken one bounding box per grid cell.  
   
- (x<sub>i</sub>)the prediction center ,height and width of the responsible bounding box in the i'th grid box  
+ (x<sub>i</sub>, y<sub>i</sub>, w<sub>i</sub>, h<sub>i</sub>): Network prediction of center ,height and width of the responsible bounding box in the i'th grid box    
+ (x<sup>^</sup><sub>i</sub>, y<sup>^</sup><sub>i</sub>, w<sup>^</sup><sub>i</sub>, h<sup>^</sup><sub>i</sub>): Ground truth  
   
 2. Confidence Loss  
   
