@@ -54,7 +54,7 @@ The 30 in the fully connected layer is the (5B+C), where the author considers B=
 <!-- ![image](https://user-images.githubusercontent.com/40908371/178316932-40efa075-68d2-4027-b9df-f7848650bec5.png) -->
 
 ## Implementation 
-However in this repo, i've ued yolov3.  
+However in this repo, i've used yolov3.(but doesn't contain pipeline for three scaled images.s.)
 Unlike in the yolov1 where the final year consists of the regressor, here CNN is used in the final layer.  
 ### Consideration:  
 - Classifier is used as Feature Selection/Feature Extraction.
