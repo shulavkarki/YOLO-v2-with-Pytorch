@@ -106,7 +106,8 @@ However, i've only taken one bounding box per grid cell.
   
 ![image](https://user-images.githubusercontent.com/40908371/182013462-7b5049fa-ba5f-4947-9a82-3d205c4bcdac.png)  
   
-
+  C<sub>i</sub>: True obectness score.
+  C<sub>i</sub><sup>^</sup>: Prediction from network * Iou between ground truth and predicted volume.  
 
 
 3. Classificaiton Loss  
